@@ -26,8 +26,8 @@ function randomColor() {
 }
 
 function randomAnimation() {
-	var arrOfClass = ["bounceIn", "flipInY", "flipInX"]; 
-	for (var i = 0; i < 3; i++){	
+	var arrOfClass = ["animated bounceIn", "animated flipInY", "animated flipInX", "animated bounce", "animated jello", "animated fadeInDownBig"]; 
+	for (var i = 0; i < arrOfClass.length; i++){	
 		addClass = arrOfClass[Math.floor(Math.random() * arrOfClass.length)];
 	}
 }
@@ -39,4 +39,6 @@ document.querySelector(".myButton").addEventListener("click", function(){
 		document.getElementById("wrapper").style.backgroundColor = color;
 		document.getElementById("name").innerHTML = singleName;
 		document.getElementById("name").className = addClass;
-	});	
+
+		// document.getElementById("name").className = document.getElementById("name").className.replace( /(?:^|\s)addClass(?!\S)/g , '' )	
+});	
