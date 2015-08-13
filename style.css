@@ -1,0 +1,42 @@
+body {
+	color:#000;
+	position: relative;
+	-webkit-transition: background-color ease .5s;
+    -moz-transition: background-color ease-out .5s;
+    -o-transition: background-color ease-out .5s;
+    transition: background-color ease-out .5s;
+}
+.myButton {
+	margin-top: 60vh;
+	padding: 20px;
+	background:#fff;
+	color: #2f2f2f;
+	outline: none;
+	border: 1px solid #2f2f2f;
+	box-shadow: none;
+	-webkit-transition: background-color ease .5s;
+    -moz-transition: background-color ease-out .5s;
+    -o-transition: background-color ease-out .5s;
+    transition: background-color ease-out .5s;
+}
+.myButton:hover {
+	background:#2f2f2f;
+	border: 1px solid #2f2f2f;
+	color: #fff;
+}
+.myButton:hover, myButton:active, myButton:focus {
+	outline: none;
+	box-shadow: none;
+}
+#name {
+	font-size: 148px;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -48px;
+	color:#fff;
+	-webkit-transition: background-color ease .5s;
+    -moz-transition: background-color ease-out .5s;
+    -o-transition: background-color ease-out .5s;
+    transition: background-color ease-out .5s;
+}
