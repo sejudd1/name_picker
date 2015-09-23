@@ -105,4 +105,5 @@ You know what you have to do here!
 1. Render a photo of the person who's name is picked
 2. CSS Animations! 
 3. Bling!!
+4. BLING BLING!!
 
